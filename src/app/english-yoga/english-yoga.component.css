@@ -1,0 +1,933 @@
+/*========================== Navbar Starts ================================*/
+/*@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+*/
+
+.nav-item img{
+  height: 30px; 
+}
+
+.navbar{
+  background-color: #fff!important;
+   padding: 13px 1rem;
+  height: 12%;
+  border: 0px;
+}
+
+.fixed-top{
+  top: -1px;
+}
+.navbar .row{
+  width: -webkit-fill-available;
+}
+
+.navbar .row .col-md-3{
+  text-align: end;
+    margin-top: -50px;
+}
+
+.navbar-brand{
+  width: fit-content;
+  color: #000;
+  margin-right: 24rem;
+  margin-left: 6px;
+  /*margin-top: 10px;*/
+    margin-bottom: 10px;
+    position: absolute;
+}
+
+.navbar-brand img{
+  height: 85px;
+    float: left;
+    margin-top: -20px;
+}
+.navbar-brand p{
+  margin-top: 12px;
+    font-size: 18px;
+    color: #4e4d4d;
+}
+
+.navbar-nav{
+  margin-right: 20px;
+    width: 135px;
+}
+
+.navbar-dark .navbar-toggler{
+    color: #383d41;
+    border-color: #383d41;
+    margin-right: 30px;
+}
+
+.navbar-toggler-icon {
+    width: 2.1em;
+    height: 2.1em;
+}
+
+.navbar-collapse{
+  border-top: 1px solid #fff;
+}
+
+.navbar-collapse.in {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px;
+}
+
+.navbar-nav .nav-link{
+  cursor: pointer;
+}
+
+.navbar-nav a:hover{
+  background-color: #e8e6e6;
+}
+
+@media only screen and (max-width: 1039px)
+
+{
+    .navbar-brand
+    {
+      float:left;
+    }
+}
+
+.navbar .row .col4{
+  float: left;
+  position: absolute;
+  margin-left: -10px;
+  /*width: 28%;*/
+}
+
+.navbar .row .col4 img{
+  margin-top: 5px;
+  width: 40px;
+}
+
+.navbar .row .col8{
+  width: 105px;
+    margin-left: 30px;
+}
+
+/*========================== Navbar Ends ================================*/
+
+/*========================== Header Starts ================================*/
+
+
+.header{
+    margin: 20px;
+}
+
+.header .col-md-6{
+  
+  float: left;
+}
+
+.header .right{
+    padding-top: 105px;
+}
+
+.header .left img{
+   width: inherit;
+  /* padding-top: 28px;
+    padding-bottom: 28px;*/
+}
+
+.header .jumbotron {
+  
+    background-color: #fff;
+    border-radius:0;
+    display: inline-block;
+}
+
+.header .col4{
+  float: left;
+}
+
+.header .col4 .logo img{
+  height: 8rem;
+  
+}
+
+.header .col8 p{
+   font-size: 25px;
+    margin-top: 26px;
+    font-family: monospace;
+    color: #696868;
+}
+
+.header .col-md-12{
+  padding: 0;
+}
+
+.header .col-md-12 img{
+ width: inherit;
+}
+
+.header .title p{
+  text-align: justify;
+    font-size: 16px;
+}
+
+/*========================== Header Ends ================================*/
+
+/*========================== Yoga Images Starts ================================*/
+
+.yogasan
+{
+	height: auto;
+}
+.yogasan .container
+{
+	margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  	/*padding-top: 75px !important;*/
+    padding-bottom: 75px;
+    height: auto;
+}
+
+@media (min-width: 768px){
+.yogasan .container 
+{
+    /*max-width: 720px;*/
+    max-width: 1152px;
+}
+}
+
+.justify-content{
+	justify-content: center!important;
+}
+
+.yogasan .col-md-10 .row
+{
+	margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-12, .col-md-10
+{
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.text-center{
+  margin-bottom: 30px !important;
+  color: #7f7d7d !important;
+  /*text-align: center!important;*/
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 3.3;
+  text-align: right !important;
+  padding-right: 25px;
+
+}
+@media (max-width: 768px)
+h4 {
+    font-size: 16px;
+}
+
+.yogaimages{
+  text-align: center;
+  margin-top: 30px;
+}
+.yogaimages div {
+  margin: 20px;
+  display: inline-block;
+  min-width: 120px;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.2;
+  
+}
+.yogaimages div span {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+    color: #6b6b6b;
+}
+
+
+.col-75 {
+  margin-top: 6px;
+  /*border-radius: 50px;*/
+  box-shadow: #929292 5px 5px 5px;
+}
+@media screen and (max-width: 600px) {
+  .col-75{
+    width: 100%;
+    margin-top: 0;
+    /*border-radius: 50px;*/
+  }
+}
+
+.col-75 ul{
+  border: 1px solid #ccc;
+  width: 106px;
+ /* border-radius: 50px;*/
+  font-size: 15px;
+  color: #4a4a4a;
+  font-weight: 700;
+  margin: 0;
+  box-shadow: #6d6d6d 5px 5px 5px;
+}
+.col-75 ul li{
+  border: 1px solid #ccc;
+    width: inherit;
+    /*border-radius: 50px;*/
+    color: #000;
+}
+.col-75 ul li a{
+  color: #6b6a6a;
+  padding: 10px;
+  /*border-radius: 50px;*/
+}
+.col-75 .dropdown-menu{
+  box-shadow: #6d6d6d 5px 5px 5px;
+  /*border-radius: 0px;*/
+}
+.col-75 .dropdown-menu li{
+ /* border-radius: 0px;*/
+  border: 0px;
+}
+
+
+
+
+/*--Demo music--*/
+
+.slider-music{
+  background:#a1c7e8;
+}
+
+/*--//Demo music--*/
+/*========================== Yoga Images Ends ================================*/
+
+/*@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 0;
+    top: -100px;
+  }
+}*/
+/* Safari 4.0 - 8.0 *
+@-webkit-keyframes slide{
+  from {left: 0px;}
+  to {top: -100px;}
+}
+
+
+ .item{
+   -webkit-animation: slide 3s;  /* Safari 4.0 - 8.0 
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 
+  animation: slide 3s;
+   animation-name: slide;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-fill-mode: forwards;
+}
+
+/*================================== SLIDER STARTS =============================*/
+.item
+{
+  margin-bottom: 4%;
+  margin-top: 2%;
+}
+.slider{
+  height: auto;
+  text-align: justify;
+  padding-bottom: 33px;
+  margin-top: 40px;
+}
+
+.carousel{
+  padding-bottom: inherit;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.carousel-inner{
+  height: inherit;
+  padding-bottom: inherit;
+}
+.carousel-control{
+    top: 160px;
+    bottom: 179px;
+    width: 8%;
+}
+.carousel-indicators
+{
+  bottom: 20px;
+}
+
+.video1
+{
+  width: 100%;
+  height: 334px;
+  box-shadow: 12px 16px 21px;
+}
+.yogaDescripation
+{
+  justify-content: flex-start;
+  font-size: 16px;
+ /* margin-top: -9px;*/
+}
+.Yoga_img_1
+{
+    /*  margin-right: -17px;
+    margin-left: -11px;*/
+    margin-top: 12px;
+}
+b
+{
+      font-weight: 100;
+}
+p
+{
+  /*margin-left: 20px;*/
+}
+.download_1
+{
+
+/*    position: absolute;
+*/    margin-top: -20px;
+     margin-left: -26px;
+
+}
+.download_100+
+{
+    margin-left: -40px;
+  }
+  .star_img
+  {
+    background: green; 
+    width: 54px;
+    margin-top: 
+  }
+  a
+  {
+    background-color: transparent;
+  }
+ 
+.carousel-inner .col-md-6{
+  float: left;
+}
+  
+  .carousel-inner .col-md-6 .row{ 
+    height: 145px;
+    padding: inherit; 
+  }
+
+  .carousel-inner .col-md-6 .row .col4{ 
+    float: left; 
+    position: absolute;
+  }
+
+  .carousel-inner .col-md-6 .row .col8
+  {
+    margin-left: 116px;
+  }
+
+  .carousel-inner .col-md-6 .row .col8 p{
+    margin-top: 68px;
+    font-size: 25px;
+   /* margin-left: 5px;*/
+  }
+  .yoga_100+
+  {
+        margin-left: 11px;
+    margin-top: 8px;
+  }
+
+  .col-12 .col3{
+    float: left;
+  }
+  .first img
+  {
+    float : left;
+    width: 60px;
+    height: 55px
+  }
+  .second
+  {
+    margin-top: 10px;
+    padding-top:1px ;
+    font-size: 12px;
+    margin-left: 10px;
+    width: 60px;
+    height: 55px;
+    float :left;
+  }
+  a:active
+  {
+    opacity: -21.5px;
+  }
+  .box
+  {
+    margin-top: 30px;
+    display: flex;
+  }
+  .box .col-12
+  {
+    padding: 0;
+    padding-left:10px;
+  }
+.box .fourth 
+{
+   padding-top: 10px;
+   font-size: 12px;
+   margin-left: 10px;
+   color:black;
+   width: 32px; height: 55px;
+   float :left;
+}
+.third img
+{
+  margin-left: 14px;
+  float:left;
+  /*width: 60px;*/
+  height: 45px;
+
+}
+@media only screen and (max-width: 1039px)
+{
+  *{
+/*    margin-top: 2%;
+*//*    margin-right: 0.1%; 
+    margin-left: 0.1%; */
+  }
+  video
+  {
+      height: 20%;    
+  }
+  .slider
+  {
+   /* height: 880px; */
+    
+  }
+
+} 
+@media (min-width: 880px) and (max-width: 998px){
+  .slider
+  {
+    width:   900px;
+    
+  }
+
+
+}
+
+@media (min-width: 1281px) {
+  
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+ 
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+ 
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+ 
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  
+}
+
+/*================================== SLIDER ENDS =============================*/
+
+/*==========================Image Hover Effect ================================*/
+
+.title{
+  width: auto;
+  margin: 0;
+}
+.snip1566 {
+  position: relative;
+  display: inline-block;
+  /*margin: 20px;*/
+  max-width: 144px;
+  width: 100%;
+  color: #bbb;
+  font-size: 16px;
+  box-shadow: none !important;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.snip1566 *,
+.snip1566:before,
+.snip1566:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.snip1566:before,
+.snip1566:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 50%;
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+  border: 2px solid #bbb;
+  border-color: transparent #bbb;
+}
+
+.snip1566 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+  border-radius: 30%;
+  padding: 10px;
+}
+
+.snip1566 figcaption {
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  opacity: 0;
+  /*background: rgba(0, 0, 0, 0.61);*/
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 50%;
+}
+
+.snip1566 i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  z-index: 1;
+}
+
+.snip1566 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1566:hover figcaption,
+.snip1566.hover figcaption {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.snip1566:hover:before,
+.snip1566.hover:before,
+.snip1566:hover:after,
+.snip1566.hover:after {
+  border-width: 10px;
+}
+
+.snip1566:hover:before,
+.snip1566.hover:before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.snip1566:hover:after,
+.snip1566.hover:after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/*=====================Yoga Content Starts ===================*/
+
+
+footer{
+  padding: 50px 0 100px;
+  background: rgb(245,246,82);
+    background: linear-gradient(172deg, rgba(245,246,82,1) 0%, rgba(249,138,94,1) 33%, rgba(249,174,215,1) 68%);
+  display: block;
+}
+
+.container-fluid{
+  overflow: hidden;
+  /*padding: 0px; */
+}
+footer .row{
+  margin: 0;
+  padding: inherit;
+}
+
+@media (min-width: 768px){
+  .container{
+    max-width: 720px;
+  }
+
+  footer .footer_box{
+    position: relative;
+    margin-top: 50px;
+  }
+}
+
+footer .footer_header{
+  margin-bottom: 30px;
+  height: 55px;
+  margin-top: 85px;
+
+}
+
+.footer_header .col4{
+  width: 90px;
+  height: 42px;
+  float: left;
+}
+
+.footer_header .col4 img{
+
+  height: 80px;
+    width: 80px;
+}
+
+.footer_box_body p{
+
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 0 15px;
+  line-height: 24px;
+  font-weight: 400px;
+  color: #fff;
+  text-align: justify;
+}
+
+.footer_header .col8{
+    float: left;
+   /* width: 250px;*/
+    color: white;
+   /* margin-left: 30px;*/
+}
+
+.footer_header .col8 h2{
+  font-size: 25px;
+    padding-top: 26px;
+}
+
+.footer_header .col8 h5{
+  color:lightgrey;
+  font-size: 16px;
+}
+footer .container-fluid .col-md-6, .col-12{
+  padding-left: 24px;
+  padding-top: 40px;
+    padding-bottom: 40px;
+}
+.btn img{
+  width: inherit;
+  height: inherit;
+}
+.googlebtn , .btn{
+    height: 45px;
+    width: 165px;
+   padding: inherit;
+}
+.btn{
+  background-color: lightpink;
+}
+
+.app-img{
+  text-align: center;
+  width: inherit;
+}
+
+.app-img img{
+
+    width: 230px;
+}
+
+.row_second .col-3{
+  padding-right: 0;
+  width: 55px;
+}
+
+.row_second .col-3 p{
+  width: inherit;
+}
+
+.row_second .col-12 .col-3{
+  float: left;
+}
+
+.row_second .first img{
+  float: right;
+  /*width: 60px;*/
+  height: 55px;
+}
+.row_second .second{
+    border-right: 1px solid;
+  padding-top: 10px;
+  font-size: 12px;
+  /*margin-left: 10px;*/
+  color:white;
+  width: 80px;
+  height: 55px;
+  /*float: left;*/
+  max-width: fit-content;
+}
+
+.row_second .fourth{
+  padding-top: 10px;
+  font-size: 12px;
+  /*margin-left: 10px;*/
+  color:white;
+  width: 60px;
+  height: 55px;
+  float: left;
+
+}
+
+.row_second .third{
+  width: 55px;
+  max-width: fit-content;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.row_second .third img{
+  /*margin-left: 14px;
+  float: left;
+  width: 60px;*/
+  height: 55px;
+}
+.row_second{
+  margin-top: 30px;
+  display: flex;
+}
+
+.row_second .col-12{
+  padding: 0;
+}
+
+.content_box{
+  padding: inherit;
+    width: inherit;
+}
+
+/*=========================Yoga Content Ends ==================*/
+
+/*======================== Footer Starts ===================*/
+
+  .footer{
+   /* border: 1px solid;*/
+  }
+
+  .footer .row{
+    /*border-top: 1px solid;*/
+    color:grey;
+    height: 50px;
+    margin: 0;
+   /* padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;*/
+  } 
+
+  .footer .row .col4{
+    position: absolute;
+    padding-left: 35px;
+    padding-top: 14px;
+  }
+
+  .footer .row .col4 p{
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  .footer .row .col8{
+      margin-left: 125px;
+      padding-left: 15px;
+      padding-top: 16px;
+  }
+
+  .footer .row .col8 .list{ 
+    height: 20px;
+  }
+
+
+  .footer .row .col8 .list ul{
+    padding: inherit;
+    /*padding-top: 2px;*/
+    font-size: 12px;
+    height: 20px;
+    width: 100%;
+  }
+
+  .footer .row .col8 .list ul li{
+    color:grey;
+    line-height: .7;
+   /* padding-top: 0px !important;*/
+   padding: 5px;
+    float: left;
+    height: 20px;
+    list-style: none;
+    padding: 5px;
+    border-right-width: 1px;
+    border-right-style: solid;
+  }
+
+  .footer .row .col8 .list ul li a{
+    color:grey;
+    text-decoration: none;
+  }
+
+  .footer .row .col8 .list>ul>li:last-child {
+    border-right: 0;
+  }
+
+/*======================== Footer Ends ===================*/
+

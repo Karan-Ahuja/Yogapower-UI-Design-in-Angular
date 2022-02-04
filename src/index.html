@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Yoga Power</title>
+  <base href="/">
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/js/tether.min.js"></script>
+
+  <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+  <script src="js/index.js"></script>
+  
+  <script type="text/javascript">
+    // without this script, the slider doesn't start on it's own:
+  !function ($) {
+    $(function(){
+      $('#myCarousel').carousel()
+    })
+  }(window.jQuery)
+
+// loop through each slide and see:
+// if video slide is active, play video, pause carousel
+// if video done playing, continue cycle carousel
+$(document).ready(function() {
+    $('.carousel-inner .item').each(function() {
+        var vid = document.getElementById("bgvid");
+        if ($("#videoSlide").hasClass("active")) {
+            vid.play();
+            $('#myCarousel').carousel('pause');
+        }
+        document.getElementById('bgvid').addEventListener('ended', function(e) {
+            alert('The End');
+            $('#myCarousel').carousel('cycle');
+        });
+    });
+});
+
+
+    // $("#homepage_slider").on change/cycle function() {
+    //   if it is video 
+    //   do this
+    // }
+
+  </script>
+
+<!-- <script> 
+// if video slide is active, play video & pause carousel
+// if video done playing, continue to cycle carousel
+$(document).ready(function() {
+    var vid = document.getElementById("bgvid");
+    if ($("#videoSlide").hasClass("active")) {
+        vid.play();
+        $('#myCarousel').carousel('pause');
+    }
+    document.getElementById('bgvid').addEventListener('ended', function(e) {
+
+        $('#myCarousel').carousel('cycle');
+    });
+    // this jQuery event listener checks every slide to see if it's a video slide
+    // and if it's active.  If yes/yes, it plays a video and pauses carousel again.
+    $("#myCarousel").on('slid', function() {
+        if ($("#videoSlide").hasClass("active")) {
+            vid.play();
+            $('#myCarousel').carousel('pause');
+        }
+    });
+});
+</script> -->
+  
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>
